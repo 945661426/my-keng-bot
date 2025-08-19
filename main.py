@@ -6,7 +6,7 @@ import telegram
 # --- 从环境变量中读取配置，更安全 ---
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 TARGET_CHAT_ID = int(os.environ.get("TARGET_CHAT_ID"))
-MESSAGE_TO_SEND = "/keng"
+MESSAGE_TO_SEND = "/keng@pter_keng_bot"
 
 async def main():
     bot = telegram.Bot(token=BOT_TOKEN)
